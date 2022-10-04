@@ -1,4 +1,4 @@
-/* Generated on: Tue Oct 04 2022 18:39:47 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Oct 04 2022 19:07:56 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2895,8 +2895,8 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     background-color: #000;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.17)), to(rgba(0, 0, 0, 0.17))), url("https://uploads-ssl.webflow.com/632ef93b829453a8c3ef9016/633c5ff6e259e18c78618f56_davide-cantelli-jpkfc5_d-DI-unsplash.jpg");
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url("https://uploads-ssl.webflow.com/632ef93b829453a8c3ef9016/633c5ff6e259e18c78618f56_davide-cantelli-jpkfc5_d-DI-unsplash.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.17)), to(rgba(0, 0, 0, 0.17))), url("https://uploads-ssl.webflow.com/632ef93b829453a8c3ef9016/633c7fc16055161e90109709_davide-cantelli-jpkfc5_d-DI-unsplash%20(1).jpg");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.17)), url("https://uploads-ssl.webflow.com/632ef93b829453a8c3ef9016/633c7fc16055161e90109709_davide-cantelli-jpkfc5_d-DI-unsplash%20(1).jpg");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     color: #fff;
@@ -3763,6 +3763,8 @@ figcaption {
     background-image: url("https://uploads-ssl.webflow.com/632ef93b829453a8c3ef9016/633c60dbd2304e04ce6c9d35_ambitious-creative-co-rick-barrett-6J2oD_IBPb0-unsplash.jpg");
     background-position: 50% 50%;
     background-size: cover;
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 .container-3 {
@@ -3814,6 +3816,11 @@ figcaption {
 
 .column {
     text-align: center;
+}
+
+.image-2 {
+    -o-object-fit: contain;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 991px) {
@@ -4314,6 +4321,14 @@ figcaption {
         margin-right: auto;
         margin-left: auto;
     }
+
+    .rich-text-block-4 {
+        text-align: left;
+    }
+
+    .rich-text-block-5 {
+        text-align: left;
+    }
 }
 
 #w-node-_86e64837-0616-515b-4568-76c147234d34-14ef902a {
@@ -4350,14 +4365,14 @@ figcaption {
 }
 
 #w-node-_86e64837-0616-515b-4568-76c147234d4c-14ef902a {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
     -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
     -ms-grid-row-span: 1;
-    grid-row-end: 2;
+    grid-row-end: span 1;
 }
 
 #w-node-_512d6dbb-7f27-b348-9927-f6bb2abe20c1-14ef902a {
