@@ -16,14 +16,14 @@
 /******/ 		if (installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
             /******/
-        }
+}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
 /******/ 			l: false,
 /******/ 			exports: {}
             /******/
-        };
+};
 /******/
 /******/ 		// Execute the module function
 /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
@@ -34,7 +34,7 @@
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
         /******/
-    }
+}
 /******/
 /******/
 /******/ 	// expose the modules object (__webpack_modules__)
@@ -48,19 +48,19 @@
 /******/ 		if (!__webpack_require__.o(exports, name)) {
 /******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
             /******/
-        }
+}
         /******/
-    };
+};
 /******/
 /******/ 	// define __esModule on exports
 /******/ 	__webpack_require__.r = function (exports) {
 /******/ 		if (typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
             /******/
-        }
+}
 /******/ 		Object.defineProperty(exports, '__esModule', { value: true });
         /******/
-    };
+};
 /******/
 /******/ 	// create a fake namespace object
 /******/ 	// mode & 1: value is a module id, require it
@@ -77,7 +77,7 @@
 /******/ 		if (mode & 2 && typeof value != 'string') for (var key in value) __webpack_require__.d(ns, key, function (key) { return value[key]; }.bind(null, key));
 /******/ 		return ns;
         /******/
-    };
+};
 /******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
 /******/ 	__webpack_require__.n = function (module) {
@@ -87,7 +87,7 @@
 /******/ 		__webpack_require__.d(getter, 'a', getter);
 /******/ 		return getter;
         /******/
-    };
+};
 /******/
 /******/ 	// Object.prototype.hasOwnProperty.call
 /******/ 	__webpack_require__.o = function (object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
@@ -441,7 +441,7 @@
         module.exports = window.Webflow = Webflow;
 
         /***/
-    }),
+}),
 /* 1 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1330,7 +1330,7 @@
         }(window.jQuery);
 
         /***/
-    }),
+}),
 /* 2 */
 /***/ (function (module, exports) {
 
@@ -1343,7 +1343,7 @@
         module.exports = _interopRequireDefault;
 
         /***/
-    }),
+}),
 /* 3 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1361,7 +1361,7 @@
 
 
         /***/
-    }),
+}),
 /* 4 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1412,7 +1412,14 @@
             }
 
             function createBadge() {
-                return;
+                var $brand = $('<a class="w-webflow-badge"></a>').attr('href', 'https://webflow.com?utm_campaign=brandjs');
+                var $logoArt = $('<img>').attr('src', 'https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg').attr('alt', '').css({
+                    marginRight: '8px',
+                    width: '16px'
+                });
+                var $logoText = $('<img>').attr('src', 'https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg').attr('alt', 'Made in Webflow');
+                $brand.append($logoArt, $logoText);
+                return $brand[0];
             }
 
             function ensureBrand() {
@@ -1446,7 +1453,7 @@
         });
 
         /***/
-    }),
+}),
 /* 5 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -1822,7 +1829,7 @@
         /* eslint-enable */
 
         /***/
-    }),
+}),
 /* 6 */
 /***/ (function (module, exports) {
 
@@ -1845,7 +1852,7 @@
         module.exports = _typeof;
 
         /***/
-    }),
+}),
 /* 7 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2014,7 +2021,7 @@
         }
 
         /***/
-    }),
+}),
 /* 8 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2302,7 +2309,7 @@
         });
 
         /***/
-    }),
+}),
 /* 9 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2411,7 +2418,7 @@
         });
 
         /***/
-    }),
+}),
 /* 10 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2520,7 +2527,7 @@
         });
 
         /***/
-    }),
+}),
 /* 11 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2651,7 +2658,7 @@
         });
 
         /***/
-    }),
+}),
 /* 12 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -2907,7 +2914,7 @@
         });
 
         /***/
-    }),
+}),
 /* 13 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3049,7 +3056,7 @@
         });
 
         /***/
-    }),
+}),
 /* 14 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3713,7 +3720,7 @@
         });
 
         /***/
-    }),
+}),
 /* 15 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -3730,7 +3737,7 @@
         module.exports = _slicedToArray;
 
         /***/
-    }),
+}),
 /* 16 */
 /***/ (function (module, exports) {
 
@@ -3741,7 +3748,7 @@
         module.exports = _arrayWithHoles;
 
         /***/
-    }),
+}),
 /* 17 */
 /***/ (function (module, exports) {
 
@@ -3774,7 +3781,7 @@
         module.exports = _iterableToArrayLimit;
 
         /***/
-    }),
+}),
 /* 18 */
 /***/ (function (module, exports) {
 
@@ -3785,7 +3792,7 @@
         module.exports = _nonIterableRest;
 
         /***/
-    }),
+}),
 /* 19 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4385,7 +4392,7 @@
         });
 
         /***/
-    }),
+}),
 /* 20 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4435,7 +4442,7 @@
         module.exports = api;
 
         /***/
-    }),
+}),
 /* 21 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4516,7 +4523,7 @@
         module.exports = api;
 
         /***/
-    }),
+}),
 /* 22 */
 /***/ (function (module, exports, __webpack_require__) {
 
@@ -4736,5 +4743,5 @@
         });
 
         /***/
-    })
+})
 /******/]);
